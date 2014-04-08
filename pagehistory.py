@@ -5,6 +5,7 @@
 This module is used for analyzing wikipedia history page
 Use this script for other language except french, need
 reset locale information below.
+git clone https://github.com/KunFly/wiki.git
 """
 
 __author__ = "JIN Kun"
