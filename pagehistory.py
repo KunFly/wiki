@@ -101,5 +101,4 @@ if __name__ == "__main__":
     t = PageHistory(infile)
     revisions = t.get_revisions()
     for revision in revisions:
-        print revision.date
-
+        print revision.id
