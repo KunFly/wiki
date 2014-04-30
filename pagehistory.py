@@ -5,6 +5,12 @@
 This module is used for analyzing wikipedia history page
 Use this script for other language except french, need
 reset locale information below.
+    locale.setlocale(locale.LC_ALL,'fr_FR.utf8')
+
+这个模块被使用来处理维基百科的“历史页面”，目前这个模块只支持法文，
+如果需要支持其他语言，请修改本地语言环境
+    locale.setlocale(locale.LC_ALL,'fr_FR.utf8')
+
 git clone https://github.com/KunFly/wiki.git
 """
 
